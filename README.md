@@ -1,41 +1,42 @@
 # PHP: The Right Way
 
-## Overview
+## Přehled
 
-This is the GitHub Pages repository for the _PHP: The Right Way_ project.
+Toto je repozitář GitHub Pages projektu _PHP: The Right Way_ přeloženého do češtiny.
 
-* This website is a Jekyll project.
-* Each section and sub-section are a Markdown file in `_posts/`.
-* Sub-sections have `isChild: true` in their front matter.
-* The navigation and page structure are automatically generated.
+* Tento web využívá strukturu Jekyll projektu.
+* Každá kapitola a podkapitola je soubor ve formátu Markdown v adresáři `_posts/`.
+* Podkapitoly mají v hlavičce uvedený parametr `isChild: true`.
+* Navigace a struktura stránky je generována automaticky.
 
-## Spread the Word!
+## Předejte dál!
 
-_PHP: The Right Way_ has web banner images you can use on your website. Show your support, and let new PHP
-developers know where to find good information!
+_PHP: The Right Way_ má web bannery, které můžete použít na svých stránkách. Podpořte projekt a informujte začínající
+PHP vývojáře, kde najdou dobré informace!
 
-[See Banner Images](http://www.phptherightway.com/banners.html)
+[Zobrazit bannery](http://www.phptherightway.com/banners.html)
 
-## How to Contribute
+## Jak přispět
 
-You should read the `CONTRIBUTING.md` file for precise instructions and tips. But, if you prefer a TL;DR:
+Měly byste si přečíst soubor `CONTRIBUTING.md` s přesnými pokyny a tipy. Ale dáváte-li přednost TL;DR:
 
-1. Fork and edit
-2. Optionally install [Ruby](https://rvm.io/rvm/install/) with [Jekyll](https://github.com/mojombo/jekyll/) gem to preview locally
-3. Submit pull request for consideration
+1. Vytvořte si fork (větev) a upravte ji
+2. Volitelně nainstalujte [Ruby](https://rvm.io/rvm/install/) a [Jekyll](https://github.com/mojombo/jekyll/) gem pro lokální náhled
+3. Vytvořte pull request pro zvážení vašich úprav
 
-### Contributor Style Guide
+### Průvodce stylem přispěvatele
 
-1. Use American English spelling (*primary English repo only*)
-2. Use four (4) spaces to indent text; do not use tabs.
-3. Wrap all text to 120 characters.
-4. Code samples should adhere to PSR-1 or higher.
+1. Používejte pravovis americké angličtiny (*pouze primární anglické repozitáře*)
+2. Používejte čtyři (4) mezery pro odsazení textu; nepoužívejte tabulátory.
+3. Dodržujte maximální délku řádku na 120 znaků
+4. Ukázky kódu by měly dodržovat standard PSR-1 nebo vyšší.
 
-## Where
+## Kde
 
 <http://www.phptherightway.com>
 
 * [English](http://www.phptherightway.com)
+* [Čeština](http://cs.phptherightway.com)
 * [Deutsch](http://rwetzlmayr.github.io/php-the-right-way)
 * [Español](http://phpdevenezuela.github.io/php-the-right-way)
 * [Français](http://eilgin.github.io/php-the-right-way/)
@@ -58,34 +59,38 @@ You should read the `CONTRIBUTING.md` file for precise instructions and tips. Bu
 * [简体中文](http://laravel-china.github.io/php-the-right-way/)
 * [繁體中文](http://laravel-taiwan.github.io/php-the-right-way)
 
-### Translations
+### Překlady
 
-If you are interested in translating _PHP: The Right Way_, fork this repo on GitHub and publish your localized fork to your own GitHub Pages account. We'll link to your translation from the primary document.
+Pokud máte zájem přeložit _PHP: The Right Way_, vytvořte si větev (fork)
+[hlavního repozitáře](https://github.com/codeguy/php-the-right-way/) na GitHubu a publikujte svůj lokalizovaný
+fork na svém GitHub Pages účtu. Na váš překlad budeme odkazovat z primárního dokumentu.
 
-To avoid fragmentation and reader confusion, please choose one of these options:
+Abyste předešli fragmentaci a zmatení čtenářů, zvolte jednu z těchto možností:
 
-1. We link to your GitHub Pages fork with `[username].github.io/php-the-right-way`
-2. We link to your GitHub Pages fork with a subdomain (e.g. "ru.phptherightway.com")
+1. Odkazujeme na váš GitHub Pages fork `[username].github.io/php-the-right-way`
+2. Odkazujeme na váš GitHub Pages fork subdoménou (např. "ru.phptherightway.com")
 
-If you use a subdomain, enter the subdomain into the `CNAME` file, and ask us to setup DNS for you. If you do not use a subdomain, remove the `CNAME` file entirely else your fork will not build when pushed.
+Pokud používáte subdoménu, zadejte ji do souboru `CNAME` a požádejte nás o nastavení DNS. Pokud subdoménu nepoužíváte,
+úplně odstraňte soubor `CNAME`, jinak se váš fork po odeslání nesestaví.
 
-Add information about your translation in the [wiki page](https://github.com/codeguy/php-the-right-way/wiki/Translations).
+Přidejte informace o vašem překladu do [wiki stránky](https://github.com/codeguy/php-the-right-way/wiki/Translations).
 
-When your translation is ready, open an issue on the Issue Tracker to let us know.
+Až bude váš překlad připravený, dejte nám vědět otevřením issue na Issue Tracker.
 
-## Why
+## Proč
 
-There's been a lot of discussion lately about how the PHP community lacks sufficient, credible information for programmers new to PHP. This repository aims to solve this problem.
+V poslední době se hodně diskutuje o tom, že komunita PHP nemá dostatek důvěryhodných informací pro začínající
+programátory. Tento repozitář si klade za cíl zmíněný problém vyřešit.
 
-## Who
+## Kdo
 
-My name is [Josh Lockhart](http://twitter.com/codeguy). I'm the author of the [Slim Framework](http://www.slimframework.com/), and I work for [New Media Campaigns](http://www.newmediacampaigns.com/).
+Jmenuje se [Josh Lockhart](http://twitter.com/codeguy). Je autorem [Slim Frameworku](http://www.slimframework.com/) a pracuje pro [New Media Campaigns](http://www.newmediacampaigns.com/).
 
-### Collaborators
+### Přispěvatelé
 
 * [Kris Jordan](http://krisjordan.com/)
 * [Phil Sturgeon](http://philsturgeon.co.uk/)
 
-## License
+## Licence
 
 [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-nc-sa/3.0/)
