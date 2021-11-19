@@ -26,7 +26,7 @@ Měly byste si přečíst soubor `CONTRIBUTING.md` s přesnými pokyny a tipy. A
 
 ### Průvodce stylem přispěvatele
 
-1. Používejte pravovis americké angličtiny (*pouze primární anglické repozitáře*)
+1. Používejte pravopis americké angličtiny (*pouze primární anglické repozitáře*)
 2. Používejte čtyři (4) mezery pro odsazení textu; nepoužívejte tabulátory.
 3. Dodržujte maximální délku řádku na 120 znaků
 4. Ukázky kódu by měly dodržovat standard PSR-1 nebo vyšší.
@@ -90,6 +90,10 @@ Jmenuje se [Josh Lockhart](http://twitter.com/codeguy). Je autorem [Slim Framewo
 
 * [Kris Jordan](http://krisjordan.com/)
 * [Phil Sturgeon](http://philsturgeon.co.uk/)
+
+**Překladatel**
+
+* [Tomáš Procházka](https://github.com/tomchuck/)
 
 ## Licence
 
