@@ -2,9 +2,9 @@
 # Vítejte
 
 Na internetu je mnoho zastaralých informací, které svádějí nové uživatele PHP na zcestí,
-šíření špatných praktik a nebezpečného kódu. _PHP: The Right Way_ je snadno čitelný,
-rychlý odkaz na oblíbené PHP stantardy, odkazy na autoritativní návody po internetu
-a co přispěvatelé považují za nejlepší postupy v současnosti.
+šíření špatných praktik a nebezpečného kódu. _PHP: The Right Way_ je přehledná, stručná příručka
+osvědčených PHP postupů, přijatých kódovacích standardů a odkazů na autoritativní návody po internetu 
+a to co přispěvatelé považují za nejlepší postupy současnosti.
 
 _Neexistuje žádný kanonický způsob použití PHP_. Tento web má za cíl představit novým PHP
 vývojářům některá témata, která nemuseli objevit, dokud není příliš pozdě, a poskytnout
