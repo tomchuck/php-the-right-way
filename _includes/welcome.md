@@ -20,7 +20,7 @@ jakmile budou k dispozici.
 _PHP: The Right Way_ je přeloženo do mnoha různých jazyků:
 
 * [English](http://www.phptherightway.com)
-* [Čeština](http://cs.phptherightway.com)
+* [čeština](http://cs.phptherightway.com)
 * [Español](http://phpdevenezuela.github.io/php-the-right-way)
 * [Français](http://eilgin.github.io/php-the-right-way/)
 * [Indonesia](http://id.phptherightway.com)

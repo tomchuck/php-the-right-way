@@ -36,7 +36,7 @@ Měly byste si přečíst soubor `CONTRIBUTING.md` s přesnými pokyny a tipy. A
 <http://www.phptherightway.com>
 
 * [English](http://www.phptherightway.com)
-* [Čeština](http://cs.phptherightway.com)
+* [čeština](http://cs.phptherightway.com)
 * [Deutsch](http://rwetzlmayr.github.io/php-the-right-way)
 * [Español](http://phpdevenezuela.github.io/php-the-right-way)
 * [Français](http://eilgin.github.io/php-the-right-way/)
@@ -73,7 +73,7 @@ Abyste předešli fragmentaci a zmatení čtenářů, zvolte jednu z těchto mo�
 Pokud používáte subdoménu, zadejte ji do souboru `CNAME` a požádejte nás o nastavení DNS. Pokud subdoménu nepoužíváte,
 úplně odstraňte soubor `CNAME`, jinak se váš fork po odeslání nesestaví.
 
-Přidejte informace o vašem překladu do [wiki stránky](https://github.com/codeguy/php-the-right-way/wiki/Translations).
+Přidejte informace o vašem překladu na [wiki stránku](https://github.com/codeguy/php-the-right-way/wiki/Translations).
 
 Až bude váš překlad připravený, dejte nám vědět otevřením issue na Issue Tracker.
 
