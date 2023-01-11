@@ -1,4 +1,4 @@
-# Contributing to PHP The Right Way
+# Přispívání do PHP The Right Way
 
 Enjoy [PHP The Right Way](http://phptherightway.com) and want to get
 involved? Great! There are plenty of ways you can help out.
