@@ -15,7 +15,7 @@ více možností, pokud možno s vysvětlením rozdílů v přístupu a použit�
 Toto je živý dokument a bude nadále aktualizován o další užitečné informace a příklady
 jakmile budou k dispozici.
 
-## Překlady
+## Překlady {#translations}
 
 _PHP: The Right Way_ je přeloženo do mnoha různých jazyků:
 
@@ -46,7 +46,7 @@ _PHP: The Right Way_ je přeloženo do mnoha různých jazyků:
 
 Nejnovější verze _PHP: The Right Way_ je k dispozici také ve formátech PDF, EPUB a MOBI. [Přejít na Leanpub][1]
 
-## Jak přispět
+## Jak přispět {#how-to-contribute}
 
 Pomozte z webu vytvořit nejlepší zdroj pro nové PHP programátory! [Přispět na GitHub][2]
 
