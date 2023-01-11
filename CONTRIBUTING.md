@@ -1,43 +1,42 @@
 # Přispívání do PHP The Right Way
 
-Enjoy [PHP The Right Way](http://phptherightway.com) and want to get
-involved? Great! There are plenty of ways you can help out.
+Líbí se Vám [PHP The Right Way](http://phptherightway.com) a chcete se zapojit?
+Super! Existuje spousta způsobů jak můžete pomoci.
 
-Please take a moment to review this document in order to make the contribution
-process easy and effective for everyone involved.
+Věnujte prosím chvíli prostudování tohoto dokumentu, aby byl proces poskztování
+příspěvků pro všechny zúčastněné snadný a efektivní.
 
-Following these guidelines helps to communicate that you respect the time of
-the developers managing and developing this open source project. In return,
-they should reciprocate that respect in addressing your issue or assessing
-patches and features.
+Dodržováním těchto pokynů dáváte najevo, že respektujete čas vývojářů, kteří
+tento open source projekt spravují a vyvíjejí. Na oplátku by vám měli tento
+respekt oplatit tím, že se budou zabývat vaším problémem nebo posuzovat opravy
+a funkce.
 
+## Použití nástroje _Issue tracker_ pro sledování problémů
 
-## Using the issue tracker
+[Issue tracker](https://github.com/tomchuck/php-the-right-way/issues) je
+preferovaným kanálem pro změny: pravopisné chyby, změny formulací, nové
+informace obsahu a obecně [zasílání pull requestů](#pull-requests), ale prosím
+respektujte následující omezení:
 
-The [issue tracker](https://github.com/codeguy/php-the-right-way/issues) is
-the preferred channel for changes: spelling mistakes, wording changes, new
-content and generally [submitting pull requests](#pull-requests), but please
-respect the following restrictions:
+* Prosím **nepoužívejte** _Issue tracker_ pro osobní žádosti o podporu (použijte
+  [Stack Overflow](http://stackoverflow.com/questions/tagged/php) nebo IRC).
 
-* Please **do not** use the issue tracker for personal support requests (use
-  [Stack Overflow](http://stackoverflow.com/questions/tagged/php) or IRC).
-
-* Please **do not** derail or troll issues. Keep the discussion on topic and
-  respect the opinions of others.
+* Prosím **nevykolujte** ani netrollujte. Udržujte diskusi k tématu a respektujte
+  názory ostatních.
 
 
 <a name="pull-requests"></a>
-## Pull Requests
+## Pull Requesty
 
-Pull requests are a great way to add new content to PHP The Right Way, as well
-as updating any browser issues or other style changes. Pretty much any sort of
-change is accepted if seen as constructive.
+Pull requesty jsou skvělým způsobem, jak přidávat nový obsah do PHP The Right Way,
+stejně jako aktualizovat případné problémy s prohlížeči nebo jiné změny stylu.
+Přijímají se prakticky jakékoli změny, pokud jsou považovány za konstruktivní.
 
-Adhering to the following process is the best way to get your work
-included in the project:
+Dodržování následujícího postupu je nejlepší způsob, jak do projektu zařadit
+svou práci:
 
-1. [Fork](http://help.github.com/fork-a-repo/) the project, clone your fork,
-   and configure the remotes:
+1. [Forkněte](http://help.github.com/fork-a-repo/) projekt, naclonujte svůj fork,
+   a nakofigurujte remoty:
 
    ```bash
    # Clone your fork of the repo into the current directory
@@ -48,21 +47,22 @@ included in the project:
    git remote add upstream https://github.com/codeguy/php-the-right-way.git
    ```
 
-2. If you cloned a while ago, get the latest changes from upstream:
+2. Pokud jste klonovali před nějakou dobou, získejte nejnovější změny z
+   upstreamu:
 
    ```bash
    git checkout gh-pages
    git pull upstream gh-pages
    ```
 
-3. Create a new topic branch (off the main project development branch) to
-   contain your change or fix:
+3. Vytvořte novou tematickou větev (mimo hlavní vývojovou větev projektu),
+   která bude obsahovat vaši změnu nebo opravu:
 
    ```bash
    git checkout -b <topic-branch-name>
    ```
 
-4. Install the [Jekyll](https://github.com/jekyll/jekyll/) gem and dependencies to preview locally:
+4. Nainstalujte [Jekyll](https://github.com/jekyll/jekyll/) gem a závislosti pro lokální zobrazení:
 
     ```bash
     # Install the needed gems through Bundler
@@ -71,49 +71,50 @@ included in the project:
     bundle exec jekyll serve
     ```
 
-5. Commit your changes in logical chunks. Please adhere to these [git commit
+5. Commit změn provádějte v logických celcích. Prosím dodržujte tyto pokyny [git commit
    message guidelines](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
-   or your content is unlikely be merged into the main project. Use Git's
-   [interactive rebase](https://help.github.com/articles/about-git-rebase/)
-   feature to tidy up your commits before making them public.
+   jinak je nepravděpodobné, že bude váš obsah začleněn do hlavního projektu.
+   Před zveřejněním commitů použijte [interaktivní rebase](https://help.github.com/articles/about-git-rebase/)
+   systému Git k jejich pročištění.
 
-6. Locally merge (or rebase) the upstream development branch into your topic branch:
+6. Proveďte lokální merge (nebo rebase) vývojové větve upstream do tématické větve:
 
    ```bash
    git pull [--rebase] upstream gh-pages
    ```
 
-7. Push your topic branch up to your fork:
+7. Pushněte svoji tématickou větev dosvého forku:
 
    ```bash
    git push origin <topic-branch-name>
    ```
 
-8. [Open a Pull Request](https://help.github.com/articles/using-pull-requests/)
-    with a clear title and description.
+8. [Otevřete Pull Request](https://help.github.com/articles/using-pull-requests/)
+    s jasným názvem a popisem.
 
 
-## Contribution Agreement and Usage
+## Dohoda o přispívání a používání
 
-By submitting a pull request to this repository, you agree to allow the project
-owners to license your work under the the terms of the [Creative Commons Attribution-NonCommercial-ShareAlike
+Odesláním pull requestu do tohoto repozitáře souhlasíte s tím, že vlastníkům projektu umožníte
+licencovat Vaši práci pod podmínek [Creative Commons Attribution-NonCommercial-ShareAlike
 3.0 Unported License](http://creativecommons.org/licenses/by-nc-sa/3.0/).
 
-The same content and license will be used for all PHP The Right Way publications,
-including - but not limited to:
+Stejný obsah a licence budou použity pro všechny publikace PHP The Right Way,
+včetně - ale nejen pro:
 
 * [phptherightway.com](http://phptherightway.com)
-* Translations of phptherightway.com
+* Překlady phptherightway.com
 * [LeanPub: PHP The Right Way](https://leanpub.com/phptherightway/)
-* Translations of "LeanPub: PHP The Right Way"
+* Překlady "LeanPub: PHP The Right Way"
 
-All content is completely free now, and always will be.
+Veškerý obsah je nyní kompletně zdarma a vždy bude.
 
-## Contributor Style Guide
+## Průvodce stylem přispěvatele
 
-1. Use American English spelling (*primary English repo only*)
-2. Use four (4) spaces to indent text; do not use tabs
-3. Wrap all text to 120 characters
-4. Code samples should adhere to PSR-1 or higher
-5. Use [GitHub Flavored Markdown](https://github.github.com/gfm/) for all content
-6. Use language agnostic urls when referring to external websites such as the [php.net](http://php.net/urlhowto.php) manual
+1. Používejte americký anglický pravopis (*primární jen English repozitář*)
+2. Pro odsazení textu používejte čtyři (4) mezery; nepoužívejte tabulátory
+3. Zalamujte veškerý text na maximálních 120 znaků na řádek
+4. Ukázky kódu by měly odpovídat standardu PSR-1 nebo vyššímu
+5. Pro veškerý obsah používejte [GitHub Flavored Markdown](https://github.github.com/gfm/)
+6. Při odkazování na externí webové stránky, jako je například příručka [php.net](http://php.net/urlhowto.php),
+   používejte jazykově agnostické URL adresy
