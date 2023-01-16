@@ -91,10 +91,6 @@ Jmenuje se [Josh Lockhart](http://twitter.com/codeguy). Je autorem [Slim Framewo
 * [Kris Jordan](http://krisjordan.com/)
 * [Phil Sturgeon](http://philsturgeon.co.uk/)
 
-**Překladatel**
-
-* [Tomáš Procházka](https://github.com/tomchuck/)
-
 ## Licence
 
 [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-nc-sa/3.0/)
